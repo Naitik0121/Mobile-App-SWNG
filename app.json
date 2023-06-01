@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "SWNG",
+    "slug": "Mobile-App-SWNG",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/SWNGAppLogo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/SWNGTransparentLogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "assets/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/SWNGAppLogo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.peekay.MobileAppSWNG"
+    },
+    "web": {
+      "favicon": "./assets/SWNGAppLogo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "16496dbb-b5b2-4496-bd49-e814e855ab8a"
+      }
+    }
+  }
+}
